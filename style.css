@@ -1,0 +1,298 @@
+#banner{
+    background: url("images/donation1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner_text{
+    text-align: center;
+    margin: 105px 305px;
+}
+
+#banner_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#banner_description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 15px 0px;
+}
+
+.button{
+    width: 160px;
+    height: 56px;
+    background: #FF5959;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#donate_today_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#donate_today{
+    margin: 130px 338px;
+}
+
+#donate_today_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin: 0px;
+}
+
+#donate_today_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 0px 50px 0px;
+    color: #707070;
+}
+
+#box_container{
+    margin: 0px -13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 44px 22px;
+    margin: 0px 11px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color: #707070;
+}
+
+#selected_box{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+#other_amount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin: 60px 0px 10px 0px;
+}
+
+#line{
+    border: 2px solid #DADADA;
+    margin: 0px 0px 30px 0px;
+}
+
+#donate_plane{
+    margin: 0px 157px 130px 157px;
+    text-align: center;
+}
+
+#donate_plane_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin: 0px;
+}
+
+#donate_plane_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin: 20px 218px 50px 218px;
+}
+
+#donate_box_container{
+    margin: 0px -12px 0px -12px;
+    display: flex;
+}
+
+.donate_box{
+    padding: 59px 22px;
+    text-align: left;
+    border:  none;
+    margin: 0px 12px;
+    border-radius: 5px;
+    width: 32%;
+}
+
+#food{
+    background: rgba(79, 157, 166, 0.1)
+}
+
+#shelter{
+    background: rgba(255, 89, 89, 0.1);
+}
+
+#education{
+    background: #FFF4D6;
+}
+
+.box_image{
+    margin: 0px;
+}
+
+.box_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin: 30px 0px 16px 0px;
+}
+
+.box_description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+#gallery{
+    text-align: center;
+}
+
+#gallery_title{
+    font-family: 'Inter';
+    font-style: bold;
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    margin: 0px;
+}
+
+#image_container{
+    margin: 30px;
+}
+
+.gallery_image{
+    width: 32%;
+    margin: 5px;
+    height: auto;
+}
+
+#get_updates{
+    margin: 130px 315px;
+    text-align: center;
+}
+
+#get_updates_text{
+    margin: 0px 60px 50px 60px;
+}
+
+#get_updates_title{
+    font-family: 'Inter';
+    font-style: bold;
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    margin: 0px;
+}
+
+#get_updates_description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin: 20px 0px 0px 0px;
+}
+
+#subscribe_box{
+    background-color: #FFF4D6;
+    padding: 76px 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subscribe_input{
+    background-color: #D9D9D9;
+    border: none;
+    padding: 17px;
+    font-family: 'Roboto';
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    color: #AA9F9F;
+}
+
+#subscribe_button{
+    padding: 17px 42px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FF5959;
+    color: #FFFFFF;
+}
+
+#footer{
+    background-color: #0B0D17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+#footer_text{
+    margin: 30px;
+    text-align: center;
+}
+
+#footer_title{
+    font-family: 'Lobster Two';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
+    margin: 12px;
+}
+
+#footer_description{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+    margin: 12px;
+}
